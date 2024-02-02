@@ -17,7 +17,7 @@
 
       <div class="columns is-multiline">
         <div v-for="movie in movies" :key="movie.id" class="column is-one-third">
-          <div class="card">
+          <div class="card" >
             <div class="card-image">
               <figure class="image is-4by3">
                 <img :src="'https://image.tmdb.org/t/p/w500/' + movie.poster_path" alt="Poster de la película">
